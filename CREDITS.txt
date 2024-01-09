@@ -1,0 +1,110 @@
+
+~~CREDIT TO THE MAIN MOD THIS IS AN ADD ON TO~~~
+ALL MODELS AND ANIMATIONS (unless otherwise specified below) ARE FROM THE SWEM MOD and their team of talented animators, coders, and designers. This mod makes no claim to their models and designs. When they are used explicit credit is given, and they are only used in their original format or in ways to be true to their original formats.
+
+Please see their mod at the link below.
+https://modrinth.com/mod/swem
+
+Join their discord
+https://www.discord.gg/swem
+
+Their work is their own and this mod only uses their models and animations in order to produce more items of their determined classes for resource pack creation or to produce ribbon/trophy variants that are able to be displayed as they wanted them to be displayed but also retain their NBT and named data.
+
+~~CREDIT TO THE TEXTURE ARTISTS~~
+Moon Flower is the artist who made the wonderful Rainbow Tack that this mod adds. Please click the link below to learn more about her amazing work!
+https://moon-flower-info.carrd.co/
+
+RileyCasper is the artist who made the ribbon and trophy textures this mod uses. Please join their discord to see all the things they get up to!
+https://discord.gg/cZ6bVAuuJj
+
+~~CREDIT TO THE HELPING DEV~~
+Thank you to Mothfet for lending an ear and helping assist in the development of this mod through code checking and providing tailored guidance. Please click the link below to learn more about their work!
+https://mothfetart.carrd.co/
+
+~~GUIDANCE CREDIT~~
+Thank you to MagnusHJenson (legenden) for your support in helping make this add on to your mod (SWEM). Thank you for answering so many questions!
+
+Thank you to Kaupenjoe for your amazing courses and YouTube tutorials. I have learned so much <3
+https://courses.kaupenjoe.net/
+
+-----------------------------------------------------------------------
+~~CREDIT TO THE NEW FILES OF THIS MOD~~
+Custom models and textures included
+
+===MODELS AND TEXTURES===
+----kyraltre----
+BUTTERFLY
+PUMPKIN_GRAND
+PUMPKIN_RESERVE
+MEDAL (all)
+FLAG (all)
+
+===TEXTURES ONLY===
+----Moon_Flower----
+(On Horse and Rack Renders only -- kyraltre does GUI textures)
+PASTURE_BLANKET_RAINBOW
+PASTURE_BLANKET_RAINBOW_ARMORED
+HALTER_RAINBOW
+ADVENTURE_BLANKET_RAINBOW
+ENGLISH_BLANKET_RAINBOW
+WESTERN_BLANKET_RAINBOW
+ADVENTURE_LEG_WRAPS_RAINBOW
+WESTERN_LEG_WRAPS_RAINBOW
+ENGLISH_LEG_WRAPS_RAINBOW
+ADVENTURE_SADDLE_RAINBOW (+ Saddle Rack texture)
+WESTERN_SADDLE_RAINBOW (+ Saddle Rack texture)
+ENGLISH_SADDLE_RAINBOW (+ Saddle Rack texture)
+ADVENTURE_BREAST_COLLAR_RAINBOW
+WESTERN_BREAST_COLLAR_RAINBOW
+ENGLISH_BREAST_COLLAR_RAINBOW
+ADVENTURE_BRIDLE_RAINBOW
+WESTERN_BRIDLE_RAINBOW
+ENGLISH_BRIDLE_RAINBOW
+ADVENTURE_GIRTH_STRAP_RAINBOW
+WESTERN_GIRTH_STRAP_RAINBOW
+ENGLISH_GIRTH_STRAP_RAINBOW
+BITLESS_BRIDLE
+DOUBLE_BRIDLE
+BAREBACK_SADDLE (also did icon)
+BAREBACK_BLANKET (also did icon)
+BAREBACK_GIRTH_STRAP (also did icon)
+***QUARTER SHEETS RAINBOW/DYED/NUMBRED + ICONS***
+
+----RileyCasper---
+RIBBON_THREE_TAILS_[All Variants]
+RIBBON_TWO_TAILS_[All Variants]
+RIBBON_ONE_TAIL_[All Variants]
+ROSETTE_[All Variants]
+TROPHY_[1 thru 3]
+
+----kyraltre----
+***ALL RAINBOW TACK GUI TEXTURES***
+***ALL AWARD TEXTURES***
+***ALL MORPHO AND MONARCH TEXTURES***
+*Both Render and GUI textures for the following items*
+PASTURE_BLANKET_[1 thru 14]
+PASTURE_BLANKET_ARMORED [1 thru 14]
+HALTER_[1 thru 14]
+ADVENTURE_BLANKET_[1 thru 14]
+ENGLISH_BLANKET_[1 thru 14]
+WESTERN_BLANKET_[1 thru 14]
+FLYMASK_[1 thru 14 + dyed variants]
+WESTERN_LEG_WRAPS_[1 thru 14]
+ADVENTURE_LEG_WRAPS_[1 thru 14]
+ENGLISH_LEG_WRAPS_[1 thru 14]
+ADVENTURE_SADDLE_[1 thru 14]
+WESTERN_SADDLE_[1 thru 14]
+ENGLISH_SADDLE_[1 thru 14]
+ADVENTURE_BREAST_COLLAR_[1 thru 14]
+WESTERN_BREAST_COLLAR_[1 thru 14]
+ENGLISH_BREAST_COLLAR_[1 thru 14]
+CLOTH_BREAST_COLLAR_[1 thru 14]
+ADVENTURE_BRIDLE_[1 thru 14]
+WESTERN_BRIDLE_[1 thru 14]
+ENGLISH_BRIDLE_[1 thru 14]
+CLOTH_BRIDLE_[1 thru 14]
+ADVENTURE_GIRTH_STRAP_[1 thru 14]
+WESTERN_GIRTH_STRAP_[1 thru 14]
+ENGLISH_GIRTH_STRAP_[1 thru 14]
+CLOTH_GIRTH_STRAP_[1 thru 14]
+PELHAM_BRIDLE_[Black & Brown]
