@@ -1,3 +1,10 @@
+# Notice about 1.16.5 - (3.20.2024)
+This is a broken and incomplete build. While the modding environment builds just fine without any mods installed on it, it will not build or run with the required SWEM mods to start integration with it. 
+
+This has been posted here for anyone to fork and try to make it work. It has all the required codes, builds, assets, files, etc. needed to bring the V2.0.5 Tack Shop to 1.16.5 if it can be fixed. This is an open source code project and anyone can fork this to try and fix it. **All I ask is that you give credit to me for the coding and my texture artist team for the textures if you do take this project on and finish it**
+
+My discord DMs are open if you want to talk about this and work through the problems together. :)
+
 # Tre's Tack Shop
 An addon mod to SWEM that expands the number of tack items in the game for the community to use to add new textures to the game without overriding the original tack items. It also includes ribbons and trophy models from the original SWEM mod in order to produce ribbons and trophies that can be displayed as the creators intended them to be but now in an item frame instead of a placeable block, thus keeping the name/NBT data of the item.
 
