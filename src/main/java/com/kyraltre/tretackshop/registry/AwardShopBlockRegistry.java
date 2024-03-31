@@ -5,18 +5,20 @@
 
 package com.kyraltre.tretackshop.registry;
 
+import com.kyraltre.tretackshop.TreTackShop;
 import com.kyraltre.tretackshop.block.custom.EggTrophy;
 import com.kyraltre.tretackshop.item.TackShopCreativeModTab;
-import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
-import net.minecraft.world.level.material.Material;
+import net.minecraft.block.AbstractBlock;
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+import net.minecraft.item.BlockItem;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemGroup;
 import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.ForgeRegistries.Keys;
-import net.minecraftforge.registries.RegistryObject;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -54,14 +56,14 @@ public class AwardShopBlockRegistry {
         return item(block, TackShopCreativeModTab.TREAWARD_TAB);
     }
 
-    private static Supplier<BlockItem> item(RegistryObject<? extends Block> block, CreativeModeTab itemGroup) {
+    private static Supplier<BlockItem> item(RegistryObject<? extends Block> block, ItemGroup itemGroup) {
         return () -> {
-            return new BlockItem((Block) block.get(), (new Item.Properties()).tab(itemGroup));
+            return new BlockItem((Block) block.get(), (new Item.Properties()).group(itemGroup));
         };
     }
 
     static {
-        BLOCKS = DeferredRegister.create(Keys.BLOCKS, "tretackshop");
+        BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, TreTackShop.MOD_ID);
 
         EGG_TROPHY_CHEV = new ArrayList<>();
         EGG_TROPHY_THIN = new ArrayList<>();
@@ -69,13 +71,13 @@ public class AwardShopBlockRegistry {
 
         for (int var1 = 1; var1 < 4; ++var1) {
             EGG_TROPHY_THICK.add(register("e_g_g_trophy_thick_" + var1, () -> {
-                return new EggTrophy(Properties.of(Material.METAL).noOcclusion().strength(1.0F));
+                return new EggTrophy(AbstractBlock.Properties.create(Material.IRON).notSolid().hardnessAndResistance(1.0F));
             }));
             EGG_TROPHY_CHEV.add(register("e_g_g_trophy_chev_" + var1, () -> {
-                return new EggTrophy(Properties.of(Material.METAL).noOcclusion().strength(1.0F));
+                return new EggTrophy(AbstractBlock.Properties.create(Material.IRON).notSolid().hardnessAndResistance(1.0F));
             }));
             EGG_TROPHY_THIN.add(register("e_g_g_trophy_thin_" + var1, () -> {
-                return new EggTrophy(Properties.of(Material.METAL).noOcclusion().strength(1.0F));
+                return new EggTrophy(AbstractBlock.Properties.create(Material.IRON).notSolid().hardnessAndResistance(1.0F));
             }));
         }
     }

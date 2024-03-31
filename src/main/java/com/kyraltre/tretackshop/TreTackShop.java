@@ -8,6 +8,8 @@ import com.kyraltre.tretackshop.registry.TackShopItems;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.RenderTypeLookup;
+import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -30,8 +32,15 @@ import java.util.stream.Collectors;
 @Mod("tretackshop")
 public class TreTackShop
 {
+    public static final String MOD_ID = "tretackshop";
     // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger();
+    public static ResourceLocation resloc(String name) {
+        return new ResourceLocation(MOD_ID, name);
+    }
+    public static ResourceLocation swresloc(String name) {
+        return new ResourceLocation("swem", name);
+    }
 
     public TreTackShop() {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
@@ -52,12 +61,12 @@ public class TreTackShop
 
     private void clientSetup(final FMLClientSetupEvent event) {
 
-        ItemBlockRenderTypes.setRenderLayer(TackShopBlocks.PUMPKIN_GRAND.get(), RenderType.cutout());
-        ItemBlockRenderTypes.setRenderLayer(TackShopBlocks.PUMPKIN_RESERVE.get(), RenderType.cutout());
-        ItemBlockRenderTypes.setRenderLayer(TackShopBlocks.SNOWFLAKE_RESERVE.get(), RenderType.cutout());
-        ItemBlockRenderTypes.setRenderLayer(TackShopBlocks.SNOWFLAKE_GRAND.get(), RenderType.cutout());
-        ItemBlockRenderTypes.setRenderLayer(TackShopBlocks.HEART_RESERVE.get(), RenderType.cutout());
-        ItemBlockRenderTypes.setRenderLayer(TackShopBlocks.HEART_GRAND.get(), RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(TackShopBlocks.PUMPKIN_GRAND.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(TackShopBlocks.PUMPKIN_RESERVE.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(TackShopBlocks.SNOWFLAKE_RESERVE.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(TackShopBlocks.SNOWFLAKE_GRAND.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(TackShopBlocks.HEART_RESERVE.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(TackShopBlocks.HEART_GRAND.get(), RenderType.getCutout());
 
     }
 
