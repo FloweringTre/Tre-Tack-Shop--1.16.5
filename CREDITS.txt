@@ -1,3 +1,6 @@
+~~ MAJOR credit to MagnusHJenson (legenden) for this 1.16.5 mod version as they corrected all the errors and converted it to 1.16.5 from 1.18.2.
+Seriously, 1.16.5 wouldn't exist without him. Thank you so much!
+
 
 ~~CREDIT TO THE MAIN MOD THIS IS AN ADD ON TO~~~
 ALL MODELS AND ANIMATIONS (unless otherwise specified below) ARE FROM THE SWEM MOD and their team of talented animators, coders, and designers. This mod makes no claim to their models and designs. When they are used explicit credit is given, and they are only used in their original format or in ways to be true to their original formats.
