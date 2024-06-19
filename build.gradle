@@ -18,7 +18,7 @@ apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 apply plugin: 'org.spongepowered.mixin'
 
-version = '0.0.3--1.16.5---BROKEN'
+version = '3.3.3--1.16.5'
 group = 'com.kyraltre.tretackshop' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'tretackshop'
 
