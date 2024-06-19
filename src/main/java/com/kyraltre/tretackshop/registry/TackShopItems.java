@@ -429,8 +429,13 @@ public class TackShopItems {
         CLOTH_BITLESS_BRIDLES_DYED = new ArrayList<>();
         BAREBACK_BLANKETS_DYED = new ArrayList<>();
 
-        for (DyeColor color : DyeColor.values()) {
-            int counter = color.getId();
+        int var1 = 15;
+        int var2 = 1;
+
+
+        while (var2 < var1) {
+            //DyeColor color = var0[var2];
+            int counter = var2;
             HALTERS.add(ITEMS.register("halter_" + counter, () ->
                     new HalterItem("halter_" + counter, (new Item.Properties())
                             .group(TackShopCreativeModTab.TRETACK_TAB).maxStackSize(16))
@@ -466,11 +471,11 @@ public class TackShopItems {
             ));
             CLOTH_ARMOR.add(ITEMS.register("cloth_horse_armor_" + counter,
                     () -> new SWEMHorseArmorItem(SWEMHorseArmorItem.HorseArmorTier.CLOTH, 10, "cloth_" + counter, (new Item.Properties())
-                        .group(TackShopCreativeModTab.TRETACK_TAB).maxStackSize(16))
+                            .group(TackShopCreativeModTab.TRETACK_TAB).maxStackSize(16))
             ));
             SADDLE_BAGS.add(ITEMS.register("saddle_bag_" + counter, () ->
-                new SaddlebagItem("saddle_bag_" + counter, (new Item.Properties())
-                        .group(TackShopCreativeModTab.TRETACK_TAB).maxStackSize(16))
+                    new SaddlebagItem("saddle_bag_" + counter, (new Item.Properties())
+                            .group(TackShopCreativeModTab.TRETACK_TAB).maxStackSize(16))
             ));
 
             WESTERN_SADDLES.add(ITEMS.register("western_saddle_" + counter, () ->
@@ -565,7 +570,11 @@ public class TackShopItems {
             FLAGS_BUTTERFLY.add(ITEMS.register("flag_butterfly_" + counter, () ->
                     new Item((new Item.Properties().group(TackShopCreativeModTab.TRETACK_TAB)))));
 
+            ++var2;
+        }
 
+
+        for (DyeColor color : DyeColor.values()) {
 
             QUARTER_SHEETS_DYED.add(ITEMS.register("quarter_sheet_" + color.getString(), () ->
                 new AdventureBreastCollarItem("quarter_sheet_" + color.getString(), (new Item.Properties())
