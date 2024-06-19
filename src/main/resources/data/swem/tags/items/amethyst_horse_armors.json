@@ -1,6 +1,11 @@
 {
   "replace": false,
   "values": [
-    "tretackshop:amethyst_horse_armor_rainbow"
+    "tretackshop:amethyst_horse_armor_rainbow",
+    "swem:amethyst_horse_armor",
+    "swem:amethyst_usa_horse_armor",
+    "swem:amethyst_netherite_horse_armor",
+    "swem:amethyst_emerald_horse_armor",
+    "swem:amethyst_copper_horse_armor"
   ]
 }

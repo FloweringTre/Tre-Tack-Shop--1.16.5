@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-
+    "swlm:star_worm",
+    "swem:star_worm"
   ]
 }
